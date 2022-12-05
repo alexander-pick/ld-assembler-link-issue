@@ -1,4 +1,4 @@
-# LD creating 
+# LD creating executable stacks (in 2022)
 
 This is a testcase for a weird linker issue which creates binaries with executable stacks. If you compile an object from assembler and link it to an object compiled from C, the binary will have an executable stack. 
 
